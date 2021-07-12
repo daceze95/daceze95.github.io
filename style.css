@@ -1,0 +1,68 @@
+	body {
+		background-image:  url('pattern_wallpaper.jpg');
+	}
+	
+	div#nest {
+		position: relative;
+		margin: auto;
+		width: 480px;
+		height: auto;
+		text-align: center;
+		border: 2px solid #B16034;
+		border-radius: 10px;
+		padding-bottom: 15px;
+		vertical-align: center;
+		top:130px;
+		background-image:  url('pattern_wallpaper.jpg');
+		box-shadow: 5px 5px 5px rgba(113, 103, 89, 0.7);
+	}
+	
+	.main_container {
+		  height: 100px;
+		  width: auto;
+		  padding: 3px;
+		  margin: 10px;
+		   
+		}
+		.container_inner {
+		  height: auto;
+		  border: none;
+		  vertical-align: center;
+		  padding-top: 12px;
+		  padding-left: 10px;
+		  align-content: center;
+		  
+		}
+		 .num_tiles {
+		  width:50px;
+		  height: 50px;
+		  color: #0f0;
+		  font-size: 4.5em;
+		  text-align: center;
+		  line-height: 20px;
+		  padding: 3px;
+		  margin: 1.5px;
+		  font-family: verdana;
+		  vertical-align: center;
+		 
+		}
+		
+		h1 {
+				color: #B16034;
+				font-weight: bolder;
+				font-size: 3em;
+				margin-bottom: 30px;
+				
+			}
+		
+		button {
+				background-color: blue;
+				text-align: center;
+				margin: 10px auto;
+				display: block;
+				color: #fff;
+				height: 30px;
+				border-radius: 5px;
+				box-shadow: 0 3px 0 #909090;
+			}
+	</style>
