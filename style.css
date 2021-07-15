@@ -65,4 +65,8 @@
 				border-radius: 5px;
 				box-shadow: 0 3px 0 #909090;
 			}
-	</style>
+		footer {
+			color: #fff;
+			background-color: #B16034;
+			text-align: center;
+			}
