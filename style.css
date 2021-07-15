@@ -1,4 +1,4 @@
-	body {
+		body {
 		background-image:  url('pattern_wallpaper.jpg');
 	}
 	
@@ -36,7 +36,7 @@
 		 .num_tiles {
 		  width:50px;
 		  height: 50px;
-		  color: #f00;
+		  color: #0f0;
 		  font-size: 4.5em;
 		  text-align: center;
 		  line-height: 20px;
@@ -65,14 +65,15 @@
 				border-radius: 5px;
 				box-shadow: 0 3px 0 #909090;
 			}
-		footer {
-				font-weight: bold;
-				text-size: 1.5em;
-				position: fixed;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				background-color: #B16034;
-				color: #fff;
-				text-align: center;
-			}
+	
+	footer {
+		font-weight: bold;
+		text-size: 1.5em;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #B16034;
+		color: #fff;
+		text-align: center;
+	}
