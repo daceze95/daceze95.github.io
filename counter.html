@@ -17,10 +17,8 @@
 			<button id= 'add' onclick= 'plusCount()'>ADD COUNT</button>
 		</div>
 		<script>
-		var counter_list = [0];//,10000,10000];
+		var counter_list = [0];
 	  var str_counter_0 = counter_list[0];
-	  //var str_counter_1 = counter_list[1];
-	  //var str_counter_2 = counter_list[2];
 	  var display_str = "";
 	  var display_div = document.getElementById("display_div_id");
 
@@ -31,17 +29,11 @@
 			  display_div.removeChild(display_div.lastChild);
 		  }
 		  str_counter_0++;
-		  //line 30 changed from  99 to 50
+		 
 		 if (str_counter_0 > 50) {
 			str_counter_0 = 0; // reset count
 		}
-			/*str_counter_1++;    // increase next count
-		  }
-		  if(str_counter_1>99999){
-			str_counter_2++;
-		  }*/
-		  
-		   //str_counter_2.toString() + str_counter_1.toString() + 
+	
 		   display_str = str_counter_0.toString();
 		  for (var i = 0; i < display_str.length; i++) {
 			var new_span = document.createElement('span');
@@ -53,18 +45,17 @@
 	
 			var lowCount= document.getElementById('lower');
 			var addCount= document.getElementById('add');
+			
+			// decreases the count by 1
 			lowCount.addEventListener('click', function lowerCount(){
 			display_str =str_counter_0--;
 		});
-		
+		//increment the count by 2
 		addCount.addEventListener('click', function plusCount(){
-		str_counter_0= str_counter_0 + 2;
-			display_div= str_counter_0;
+			display_str= str_counter_0++;
 		});
 	  
 	  }//end of function incrementCount
-	  
-	  
 		</script>
   </body>
 </html>
