@@ -1,0 +1,237 @@
+ html {
+	 background-color: #fff;/*hsl(218, 28%, 25%);*/
+ }
+ body {
+			color: #fff;
+			background-color: hsl(218, 28%, 25%);
+			font-size: 16px;
+			width: 960px;
+			margin: auto;
+			margin:-top: 5px;
+			/*border: 1px solid blue;*/
+			padding: 10px;
+			padding-left: 25px;
+			background-image: url('images/bg-curvy-desktop.svg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			  }
+			  
+	button  {
+		border-radius: 20px;
+		background-color: #00B3FF;/*#76FCFF;*/
+		color: #fff;
+		height: 30px;
+		padding: 10px;
+		font-size: 0.75em;
+		text-align: center;
+		border: none;
+		}
+		
+	li {
+	  list-style-type: none;
+	  }
+			  
+	#banner {
+	  position: relative;
+	  <!--border: 1px solid blue;
+	  padding: 5px;
+	  margin-bottom: 10px;
+	  }
+	
+	#banner ul {
+		position: absolute;
+		padding: 0 ;
+		margin: 0 10px;
+		width: 200px;
+		top: 25px;
+		right: 50px;
+		
+		}
+	
+	#main_link  li  {
+		text-align: right;
+		display: inline-block;
+		margin: 0px 5px;
+		}
+	
+	div.intro {
+		text-align: center;
+		padding:  10px;
+		<!--border: 1px solid blue;
+		vertical-align: center;
+		margin: auto;
+		margin-top: 5px ;
+		width: 350px
+		}
+	
+	div.text {
+		<!--border: 1px solid blue;
+		padding: 10px;
+		padding-bottom: 15px;
+		margin-top: 10px;
+		font-size: 0.85em;
+		overflow: auto;
+		}
+	div.text div.intext {
+		/*border: 1px solid blue;*/
+		padding:  5px 10px;
+		margin: 10px 0 5px 0;
+		width: 350px;
+		text-align: center;
+		display: inline-block;
+		}
+	
+	div.text div.A {
+		padding-top: 15px;
+		margin-bottom: 18px;
+		}
+	
+	div.text div.A,  div.text div.C {
+		float: left;
+		margin-left: 70px ;
+		}
+	div.text div.B,  div.text div.D {
+		float: right;
+		margin-right: 70px;
+		}
+	
+	div.text div.D {
+		padding-bottom: 10px;
+		}
+	
+	.mid-div {
+		position: relative;
+		/*border: 1px solid blue;*/
+		padding: 10px;
+		margin: 10px;
+		}
+	
+	.middle {
+		float: right;
+		text-align: left;
+		/*border: 1px solid blue;*/
+		width: 400px;
+		left: 50px;
+		padding: 5px 5px;
+		margin:  0 5px 0 50px;
+		}	
+		
+	.cover {
+		/*border: 1px solid blue;*/
+		padding: 5px;
+		background-image: url('images/bg-quotes.png');
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+		margin-top: 15px;
+		}
+		
+	div.testimonial {
+		position: relative;
+		/*border: 1px solid blue;*/
+		margin-top: 35px;
+		padding: 5px 10px; 
+		display: inline-block;
+		width: 270px;
+		background-color: hsl(219, 30%, 18%);
+		}
+		
+	div.tm2 {
+		left: 20px;
+		}
+		
+	div.tm3  {
+		left: 35px;
+		padding-right: 10px;
+		}
+		
+	span.txt {
+		width: 100px;
+		}
+	div.testimonial img {
+		float: left;
+		padding-right: 5px ;
+		border-radius: 50%;
+		height: 50px;
+		margin-right: 5px;
+		}
+	div.info p {
+		text-align: left;
+		width: 150px;
+		display: inline-block;
+		float: left;
+		border: 1px solid blue;
+		}
+
+	footer {
+		height: 250px;
+		padding: 100px 20px 10px 50px;
+		margin: 0;
+		margin-left: -25px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: 96.3%;
+		background-color: hsl(216, 28%, 9%);
+		}
+	
+	footer img {
+		padding-right: 10px;
+		}
+		
+	footer .left {
+		float: left;
+		width: 250px;
+		height: 150px;
+		text-align: justify;
+		}
+	
+	footer ul.right li img {
+		margin-bottom: 10px;
+		}				
+
+	footer ul.right, footer p.right  {
+		float: left;
+		}
+	
+	footer div.image {
+		margin-left: 20px;
+		/*border: 1px solid blue;*/
+		display: inline-block;
+		margin-top: 20px;
+		padding: 2px;
+		}
+				
+	div.last #search  {
+		border-radius: 25px;
+		margin-right: 10px;
+		height: 25px;
+		border: none;
+		}
+						   
+	div.last  {
+	  position: relative;
+	  bottom: -100px;
+	  margin-top: 50px;
+	  <!--border: 1px solid blue;
+	  padding: 10px;
+	  margin: 10px auto;
+	  text-align: center;
+	  width: 400px;
+	  background-color: hsl(218, 28%, 20%);
+	  }
+	  
+	a {
+		color: #76ECFF;
+		}
+					
+	.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	margin-bottom: 10px;
+	clear: both;
+	}
+				
+	.attribution a { 
+	color: hsl(228, 45%, 44%};
+	}
